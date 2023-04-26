@@ -6,7 +6,7 @@ Script was prepared for EfficientIP SOLIDserver with all required modules intact
 - Script should be compatible with standard ISC-BIND
 - Zone Statistics must be set
 - Statistics Channel must be set
-- ISC-BIND must be compiled with json-c for the Zone Statistics to be in JSON format (Reference: [https://kb.isc.org/docs/monitoring-recommendations-for-bind-9](https://kb.isc.org/docs/monitoring-recommendations-for-bind-9) 
+- ISC-BIND must be compiled with json-c for the Zone Statistics to be in JSON format (Reference: [https://kb.isc.org/docs/monitoring-recommendations-for-bind-9](https://kb.isc.org/docs/monitoring-recommendations-for-bind-9))
 
 ## Tested SOLIDserver Versions
 - SOLIDserver v8.2.0
