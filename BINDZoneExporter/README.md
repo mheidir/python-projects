@@ -2,6 +2,8 @@
 Written in Python3 to facilitate the extraction and conversion of BIND Zone Statistics for Prometheus to scrape the information and allow Grafana to present the data in a visually appealing UI.
 Script was prepared for EfficientIP SOLIDserver with all required modules intact within the virtualenv, in cshell as a background process. As a Python script, the code is portable without having to add external dependencies to achieve the required purpose.
 
+Compliment to bind_exporter[https://github.com/prometheus-community/bind_exporter](https://github.com/prometheus-community/bind_exporter) which performs BIND Statistics extration via GO-Lang. It lacks Zone Statistics which this project is attempting to complement.
+
 ## Important Notes
 - Script should be compatible with standard ISC-BIND
 - Zone Statistics must be set
